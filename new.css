@@ -1,0 +1,44 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid red;
+    animation-name: boxing;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes boxing{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: black;
+    }
+  
+    25%{
+        left: 200px;
+        top: 200px;
+        background-color:yellow;   
+    }
+
+    50%{
+        top: 0;
+        left: 400px;
+        background-color: brown;
+    }
+
+    75%{
+        left: 600px;
+        top: 200px;
+        background-color: blueviolet
+    }
+
+   100%{
+       top: 0;
+       left: 800px;
+       background-color: aquamarine
+   }
+}
+
+   
